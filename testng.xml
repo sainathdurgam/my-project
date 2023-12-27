@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="myproject" parallel="classes" thread-count="2">
+    <test name="Sample Test" >
+        <classes>
+            <class name="HomePageTest" />
+            <class name="DiwaliPageTest" />
+            <class name="TechnologyPageTest" />
+            <class name="FoodsPageTest" />
+            <class name="NewsPageTest" />
+
+        </classes>
+    </test>
+</suite>
